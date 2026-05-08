@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaTrade Pro</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script>
+tailwind.config={theme:{extend:{colors:{bg:'#0a0d10',panel:'#11151a',card:'#181d25',bdr:'#232a34',txt:'#eaecef',mt:'#7a8594',bu:'#0ecb81',be:'#f6465d',gd:'#f0b90b'},fontFamily:{sans:['"Plus Jakarta Sans"','sans-serif'],mono:['"JetBrains Mono"','monospace']}}}}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0d10;color:#eaecef;font-family:'Plus Jakarta Sans',sans-serif;overflow-x:hidden}
+::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:#11151a}::-webkit-scrollbar-thumb{background:#232a34;border-radius:3px}
+h1{color:#0ecb81;font-size:28px;text-align:center;margin-top:40vh;font-family:'JetBrains Mono',monospace}
+p{color:#7a8594;text-align:center;margin-top:12px;font-size:14px}
+</style>
+</head>
+<body>
+<h1>NovaTrade Pro</h1>
+<p>Sistema carregando...</p>
+<script>
+setTimeout(function(){
+    var s=document.createElement('script');
+    s.src='app.js';
+    document.body.appendChild(s);
+},100);
+</script>
+</body>
+</html>
